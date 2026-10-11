@@ -1,0 +1,13 @@
+CẦU QUE GỖ 3D — WEBSITE ĐỘC LẬP
+
+Đây là website tĩnh, không cần tài khoản ChatGPT khi triển khai.
+
+GitHub Pages: Tạo repository, tải toàn bộ nội dung ZIP lên thư mục gốc, vào Settings > Pages, chọn Deploy from a branch, branch main, folder /(root). Link sẽ có dạng https://TEN-TAI-KHOAN.github.io/TEN-REPOSITORY/.
+
+Cloudflare Pages: Workers & Pages > Create > Pages > Upload assets, tải thư mục đã giải nén. Link sẽ có dạng https://TEN-DU-AN.pages.dev.
+
+Vercel: Add New > Project, import repository chứa nội dung ZIP; Framework Preset: Other, Output Directory: để trống. Link có dạng https://TEN-DU-AN.vercel.app.
+
+Mở index.html qua một máy chủ tĩnh để xem tại máy; file:// có thể chặn ES modules. Có thể dùng: python3 -m http.server 8000
+
+Thư mục photos chứa 10 ảnh tham chiếu gốc và sẽ công khai khi đăng web. Mô hình dựng theo ảnh, không phải bản đo kỹ thuật.
